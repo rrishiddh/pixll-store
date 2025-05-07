@@ -21,11 +21,11 @@ const Navbar = () => {
             <a href="#" className="hover:scale-110 cursor-pointer py-2">About</a>
             <a href="#" className="hover:scale-110 cursor-pointer py-2">Blog</a>
             <a href="#" className="hover:scale-110 cursor-pointer py-2">Contact</a>
-          <Image
+          {/* <Image
             src={menu}
             alt="menu"
             className="w-[32px] h-[32px] hover:scale-110 cursor-pointer"
-          />
+          /> */}
         </div>
 
         {/* mobile menu */}
