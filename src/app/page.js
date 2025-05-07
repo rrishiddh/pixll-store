@@ -1,4 +1,5 @@
 import Banner from "@/components/Banner";
+import Footer from "@/components/Footer";
 import Insights from "@/components/Insights";
 import Navbar from "@/components/Navbar";
 import OurWork from "@/components/OurWork";
@@ -18,6 +19,8 @@ export default function Home() {
       <OurWork></OurWork>
       {/* Featured Insight section  */}
       <Insights></Insights>
+      {/* footer  */}
+      <Footer></Footer>
     </>
   );
 }
