@@ -13,7 +13,8 @@ const ProductMarquee = () => {
           <Image
             src={marquee1}
             alt="marquee1"
-            className="w-[457px] h-[306px]"
+            
+            className="max-sm:w-[auto] max-sm:h-[auto] md:w-[457px] md:h-[306px]"
           />
         </div>
         {/* 2nd */}
@@ -21,7 +22,7 @@ const ProductMarquee = () => {
           <Image
             src={marquee2}
             alt="marquee2"
-            className="w-[457px] h-[306px]"
+            className="max-sm:w-[auto] max-sm:h-[auto] md:w-[457px] md:h-[306px]"
           />
         </div>
         {/* 3rd */}
@@ -29,7 +30,7 @@ const ProductMarquee = () => {
           <Image
             src={marquee3}
             alt="marquee2"
-            className="w-[457px] h-[306px]"
+            className="max-sm:w-[auto] max-sm:h-[auto] md:w-[457px] md:h-[306px]"
           />
         </div>
       </Marquee>

@@ -8,7 +8,7 @@ import Service from "@/components/Service";
 
 export default function Home() {
   return (
-    <>
+    <div className="border">
       {/* hero section  */}
       <Navbar></Navbar>
       <Banner></Banner>
@@ -21,6 +21,6 @@ export default function Home() {
       <Insights></Insights>
       {/* footer  */}
       <Footer></Footer>
-    </>
+    </div>
   );
 }

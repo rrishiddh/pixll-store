@@ -15,41 +15,41 @@ const OurWork = () => {
       {/* card section */}
       <div className="max-w-[1140px]  w-full mx-auto items-center mt-[150px] ">
         {/* 1st row  */}
-        <div className="grid grid-cols-2 gap-[32px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 md:gap-[32px] ">
           {/* card1  */}
-          <div className="w-full max-w-[554px] p-1 rounded-[16px]">
+          <div className="w-full max-w-[554px] p-1 hover:scale-110 ease-out transition duration-300 rounded-[16px] ">
             <Image src={work1} alt="work1" className="w-[full] h-[full]" />
             <div className="flex justify-between items-center p-6">
               <div className="space-y-4">
-                <p className="font-bold text-[32px]">Alcohol Tracker</p>
-                <p className=" text-[24px] text-[#D1D1D1]">
+                <p className="font-bold text-[32px] max-sm:text-[18px]">Alcohol Tracker</p>
+                <p className=" text-[24px] max-sm:text-[16px] text-[#D1D1D1]">
                   All-In-One (AIO) Service
                 </p>
               </div>
-              <button className=" flex items-center text-[24px] gap-2 py-2 px-4 rounded-full bg-[#93d1fd1d]"> Open <MdArrowOutward className="text-4xl" />
+              <button className=" flex items-center cursor-pointer text-[24px] max-sm:text-[16px]  gap-2 py-2 px-4 rounded-full bg-[#93d1fd1d]"> Open <MdArrowOutward className="text-4xl" />
               </button>
             </div>
           </div>
           {/* card2  */}
-          <div className="w-full max-w-[554px] p-1 rounded-[16px]">
+          <div className="w-full max-w-[554px] p-1 rounded-[16px]  hover:scale-110 ease-out transition duration-300 ">
             <Image src={work2} alt="work2" className="w-[full] h-[full]" />
             <div className="flex justify-between items-center p-6">
               <div className="space-y-4">
-                <p className="font-bold text-[32px]">Rely</p>
-                <p className=" text-[24px] text-[#D1D1D1]">
+                <p className="font-bold text-[32px] max-sm:text-[18px] ">Rely</p>
+                <p className=" text-[24px] max-sm:text-[16px]  text-[#D1D1D1]">
                   All-In-One (AIO) Service
                 </p>
               </div>
-              <button className=" flex items-center text-[24px] gap-2 py-2 px-4 rounded-full bg-[#93d1fd1d]"> Open <MdArrowOutward className="text-4xl" />
+              <button className=" flex items-center text-[24px] gap-2 py-2 px-4 cursor-pointer max-sm:text-[16px] rounded-full bg-[#93d1fd1d]"> Open <MdArrowOutward className="text-4xl" />
               </button>
             </div>
           </div>
         </div>
 
         {/* 2nd row  */}
-        <div className="grid grid-cols-3 gap-[24.04px] mb-[48px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[24.04px] mb-[48px]">
           {/* card1  */}
-          <div className="w-full max-w-[365px] p-1 rounded-[10.54px]">
+          <div className="w-full max-w-[365px] p-1 rounded-[10.54px]  hover:scale-110 ease-out transition duration-300 ">
             <Image
               src={work3}
               alt="work3"
@@ -57,17 +57,17 @@ const OurWork = () => {
             />
             <div className="flex justify-between items-center p-4">
               <div className="space-y-2">
-                <p className="font-bold text-[20px]">Alcohol Tracker</p>
-                <p className=" text-[14px] text-[#D1D1D1]">
+                <p className="font-bold text-[20px] max-sm:text-[18px] ">Alcohol Tracker</p>
+                <p className=" text-[14px]  text-[#D1D1D1]">
                   All-In-One (AIO) Service
                 </p>
               </div>
-              <button className=" flex items-center text-[16px] gap-2 py-2 px-4 rounded-full bg-[#93d1fd1d]"> Open <MdArrowOutward className="text-4xl" />
+              <button className="cursor-pointer flex items-center text-[16px] gap-2 py-2 px-4 rounded-full bg-[#93d1fd1d]"> Open <MdArrowOutward className="text-4xl" />
               </button>
             </div>
           </div>
           {/* card2  */}
-          <div className="w-full max-w-[365px] p-1 rounded-[10.54px]">
+          <div className="w-full max-w-[365px] p-1 rounded-[10.54px]  hover:scale-110 ease-out transition duration-300 ">
             <Image
               src={work4}
               alt="work4"
@@ -75,17 +75,17 @@ const OurWork = () => {
             />
             <div className="flex justify-between items-center p-4">
               <div className="space-y-2">
-                <p className="font-bold text-[20px]">Finance Website</p>
+                <p className="font-bold text-[20px] max-sm:text-[18px] ">Finance Website</p>
                 <p className=" text-[14px] text-[#D1D1D1]">
                   All-In-One (AIO) Service
                 </p>
               </div>
-              <button className=" flex items-center text-[16px] gap-2 py-2 px-4 rounded-full bg-[#93d1fd1d]"> Open <MdArrowOutward className="text-4xl" />
+              <button className="cursor-pointer flex items-center text-[16px] gap-2 py-2 px-4 rounded-full bg-[#93d1fd1d]"> Open <MdArrowOutward className="text-4xl" />
               </button>
             </div>
           </div>
           {/* card3  */}
-          <div className="w-full max-w-[365px] p-1 rounded-[10.54px]">
+          <div className="w-full max-w-[365px] p-1 rounded-[10.54px]  hover:scale-110 ease-out transition duration-300 ">
             <Image
               src={work5}
               alt="work5"
@@ -93,19 +93,23 @@ const OurWork = () => {
             />
             <div className="flex justify-between items-center p-4">
               <div className="space-y-2">
-                <p className="font-bold text-[20px]">Alcohol Tracker</p>
+                <p className="font-bold text-[20px] max-sm:text-[18px] ">Alcohol Tracker</p>
                 <p className=" text-[14px] text-[#D1D1D1]">
                   All-In-One (AIO) Service
                 </p>
               </div>
-              <button className=" flex items-center text-[16px] gap-2 py-2 px-4 rounded-full bg-[#93d1fd1d]"> Open <MdArrowOutward className="text-4xl" />
+              <button className="cursor-pointer flex items-center text-[16px] gap-2 py-2 px-4 rounded-full bg-[#93d1fd1d]"> Open <MdArrowOutward className="text-4xl" />
               </button>
             </div>
           </div>
         </div>
 
-        <button className="max-w-[201px] my-[48px] mx-auto flex items-center text-[20px] font-medium gap-2 py-[20px] px-[32px] rounded-full bg-linear-to-r from-[#73BFFA] to-[#3C97F5]"> View More <MdArrowOutward className="text-2xl" />
-        </button>
+        <a href="#">
+          <button className="max-w-[201px] my-[48px] mx-auto flex items-center text-[20px] hover:from-[#3C97F5] hover:to-[#73BFFA] cursor-pointer font-medium gap-2 py-[20px] px-[32px] rounded-full bg-linear-to-r from-[#73BFFA] to-[#3C97F5]">
+            {" "}
+            View More <MdArrowOutward className="text-2xl" />
+          </button>
+        </a>
       </div>
     </>
   );
